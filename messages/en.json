@@ -1,0 +1,138 @@
+{
+  "Common": {
+    "Login": "Login",
+    "Logout": "Logout",
+    "Next": "Next",
+    "Previous": "Previous",
+    "Favorite": "Favorite",
+    "UnFavorite": "UnFavorite",
+    "NotFound": "NotFound",
+    "Total": "Total",
+    "Confirm": "Confirm",
+    "Year": "Year",
+    "Semester": "Semester"
+  },
+  "Language": {
+    "EN": "EN",
+    "TH": "TH"
+  },
+  "Chip": {
+    "Sun": "Sun",
+    "Mon": "Mon",
+    "Tue": "Tue",
+    "Wed": "Wed",
+    "Thu": "Thu",
+    "Fri": "Fri",
+    "Sat": "Sat",
+    "None": "Contact Teacher",
+    "Lecture": "Lecture",
+    "Laboratory": "Laboratory",
+    "Regular": "ปกติ",
+    "RegularInternational": "ปกติ(I)",
+    "Special": "พิเศษ",
+    "SpecialInternational": "พิเศษ(I)"
+  },
+  "StdStatus": {
+    "Regular": "Regular",
+    "RegularInternational": "Regular(International)",
+    "Special": "Special",
+    "SpecialInternational": "Special(International)",
+    "Undefined": "Undefined"
+  },
+  "Mode": {
+    "And": "And",
+    "Or": "Or"
+  },
+  "SubjectsAndSections": {
+    "SetOfDayTitleText": "Day(s) (all section) :",
+    "SeeSections": "sections",
+    "Section": "section",
+    "Credit": "credit",
+    "Coursedate": "course date",
+    "Room": "room",
+    "Teacher": "teacher",
+    "Note": "Note: Generally must be enroll together with the section",
+    "MajorCode": "For",
+    "Entry": "Entry",
+    "CantEnroll": "Can not enroll",
+    "Selected": "SELECTED"
+  },
+  "Index": {
+    "Title": "Website checking class schedules for students in Kasetsart University."
+  },
+  "Navbar": {
+    "Title": "KU Planner",
+    "FindClass": "Find Class",
+    "MakeTable": "Make Table",
+    "FavoriteClass": "Class with",
+    "stdPlan": "Student Plan",
+    "Guide": "Guide"
+  },
+  "Login": {
+    "TitleUsername": "Nontri Account",
+    "HintUsername": "b63xxxxxxxx",
+    "TitlePassword": "Password",
+    "HintPassword": "Nontri Password",
+    "ForgotPassword": "Forgot Password",
+    "ServerError500": "Username or Password Not Correct",
+    "ServerError404": "Server failed"
+  },
+  "SubjectsPage": {
+    "Title": "Search subject",
+    "InputPlaceholder": "Search subject (code/name)",
+    "FilterButtonText": "Filter",
+    "FilterTitle": "Filter Subjects",
+    "TimeRangeTitle": "Choose Time Range",
+    "StudyDateTitle": "Study Date",
+    "StudyTypeTitle": "Study Type",
+    "FilterTypeTitle": "Filter Type",
+    "ToText": "To",
+    "FromText": "From",
+    "NoSubjects": "Not found any subject",
+    "FavoriteSubjectsTitle": "Favorite Subjects",
+    "NoFavoriteSubjects": "No Favorite Subjects",
+    "SelectFavoriteSubjects": "Show Only Favorite Subjects"
+  },
+  "SelectedPage": {
+    "Title": "MakeTable",
+    "SelectedStdStatusTitle": "StdStatus",
+    "NowChoosedSubjectsTitle": "Selected Subjects",
+    "NoNowChoosedSubjectsTitle": "No Selected Subjects",
+    "OldSearchSubjectsTitle": "Searched Subjects",
+    "NoOldSearchSubjectsTitle": "No Searched Subjects",
+    "FavoriteSubjectsTitle": "Favorite Subjects",
+    "NoFavoriteSubjectsTitle": "No Favorite Subjects",
+    "SearchSubjectsTitle": "Search Subjects",
+    "ShouldEnrollSubjectsTitle": "Should Enroll Subjects"
+  },
+  "TablePage": {
+    "Title": "MakeTable",
+    "SaveTable": "SaveDraft",
+    "PicTable": "SavePicture",
+    "ChangePlan": "ChangePlan",
+    "Selected": "SELECTED",
+    "Plan": "Plan",
+    "NotChooseSection": "Not choose any section",
+    "SelectedSection": "Selected Section",
+    "ChangeSection": "Change Section",
+    "ChooseSection": "Choose Section"
+  },
+  "GenEdType": {
+    "Wellness": "Wellness",
+    "Entrepreneurship": "Entrepreneurship",
+    "LanguageAndCommunication": "Language And Communication",
+    "ThaiCitizenAndGlobalCitizen": "Thai Citizen And Global Citizen",
+    "Aesthetics": "Aesthetics"
+  },
+  "GenEdPage": {
+    "Title": "General Education List",
+    "SubjectDetail": "Subject Detail",
+    "GenEdFilter": "GenEd"
+  },
+  "StdPlanPage": {
+    "Title": "Student Plan",
+    "Example": "Example Student Plan",
+    "Model": "Model:",
+    "Plan": "Plan:"
+  }
+}

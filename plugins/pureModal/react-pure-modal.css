@@ -1,0 +1,139 @@
+.body-modal-fix {
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+
+.pure-modal-backdrop {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 1040;
+  background-color: rgba(0, 0, 0, 0.4);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  animation: fadein .5s;
+}
+
+@keyframes fadein {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+.backdrop-overflow-hidden {
+  overflow: hidden !important;
+}
+
+.pure-modal-backdrop .pure-modal {
+  max-width: 100%;
+  box-sizing: border-box;
+  transition: all 0.2s ease-in-out;
+  max-height: 100%;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+.pure-modal.auto-height {
+  position: static;
+}
+
+.pure-modal-backdrop.scrollable {
+  overflow-y: auto;
+}
+
+.pure-modal-backdrop .panel {
+  display: grid;
+  grid-template-rows: repeat(3, min-content);
+}
+
+.pure-modal-backdrop:not(.scrollable) .panel {
+  grid-template-rows: min-content minmax(0, 1fr) min-content;
+  max-height: -moz-available;
+  max-height: -webkit-fill-available;
+  /* max-height: fill-available; */
+  height: 100%;
+}
+
+.pure-modal>*>* {
+  flex: 0 0 auto;
+}
+
+.pure-modal>*>.scrollable {
+  overflow-x: hidden;
+  overflow: touch;
+}
+
+/* @media (min-width: 1280px) {
+  .pure-modal-backdrop .pure-modal {
+    width: 1280px;
+  }
+}
+
+@media (max-width: 1280px) {
+  .pure-modal-backdrop .pure-modal {
+    width: 100%;
+  }
+} */
+
+.pure-modal .panel-body {
+  background-color: #fff;
+  border-radius: 0.25rem;
+}
+
+.pure-modal .panel-heading {
+  background: #f0f0f0;
+}
+
+.pure-modal .panel-title {
+  padding: 12px 45px 12px 15px;
+  margin: 0;
+}
+
+.pure-modal .close {
+  right: 26px;
+  top: 10px;
+  z-index: 1;
+  background: hsla(0, 0%, 94.1%, 0.8);
+  width: 30px;
+  color: #8c8c8c;
+  transition: color 0.1s ease-in-out;
+  height: 30px;
+  border-radius: 15px;
+  text-align: center;
+  line-height: 30px;
+  cursor: pointer;
+}
+
+.pure-modal .panel-heading .close:hover {
+  color: #000;
+}
+
+.pure-modal .panel-body {
+  padding: 15px;
+}
+
+.pure-modal .panel-footer {
+  padding: 12px 45px 12px 15px;
+  background: #f0f0f0;
+}
+
+.pure-modal .panel-body,
+.pure-modal .panel-footer,
+.pure-modal .panel-title {
+  word-break: break-all;
+}
+
+.pure-modal-backdrop .additional-row,
+.pure-modal-backdrop:not(.scrollable) .additional-row {
+  display: grid;
+  grid-template-rows: min-content minmax(0, 1fr) min-content min-content;
+}

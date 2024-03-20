@@ -1,0 +1,47 @@
+{
+  "name": "ku-planner-front",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "prisma generate && next build",
+    "start": "next start",
+    "lint": "next lint",
+    "production": "next build && next start"
+  },
+  "dependencies": {
+    "@prisma/client": "^5.7.1",
+    "@types/papaparse": "^5.3.7",
+    "@types/react": "18.2.14",
+    "@types/react-dom": "18.2.6",
+    "autoprefixer": "10.4.14",
+    "axios": "^1.5.0",
+    "clsx": "^2.0.0",
+    "eslint": "8.43.0",
+    "eslint-config-next": "13.4.13",
+    "html-to-image": "^1.11.11",
+    "jotai": "^2.6.0",
+    "jwt-decode": "^4.0.0",
+    "next": "13.5.1",
+    "next-auth": "^4.23.1",
+    "next-intl": "3.0.0-beta.5",
+    "next-themes": "^0.2.1",
+    "papaparse": "^5.4.1",
+    "postcss": "8.4.24",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-icons": "^4.10.1",
+    "react-infinite-scroll-component": "^6.1.0",
+    "react-sortablejs": "^6.1.4",
+    "sweetalert2": "^11.7.32",
+    "tailwindcss": "3.3.2",
+    "tailwindcss-animated": "^1.0.1"
+  },
+  "devDependencies": {
+    "@types/node": "20.3.1",
+    "daisyui": "^4.6.0",
+    "prisma": "^5.7.1",
+    "ts-node": "^10.9.2",
+    "typescript": "5.1.3"
+  }
+}

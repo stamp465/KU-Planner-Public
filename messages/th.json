@@ -1,0 +1,139 @@
+{
+  "Common": {
+    "Login": "เข้าสู่ระบบ",
+    "Logout": "ออกจากระบบ",
+    "Next": "ต่อไป",
+    "Previous": "ย้อนกลับ",
+    "Favorite": "สนใจ",
+    "UnFavorite": "เลิกสนใจ",
+    "NotFound": "ไม่พบข้อมูล",
+    "Total": "รวม",
+    "Confirm": "ตกลง",
+    "Year": "ปี",
+    "Semester": "เทอม"
+  },
+  "Language": {
+    "EN": "EN",
+    "TH": "TH"
+  },
+  "Chip": {
+    "Sun": "อา.",
+    "Mon": "จ.",
+    "Tue": "อ.",
+    "Wed": "พ.",
+    "Thu": "พฤ.",
+    "Fri": "ศ.",
+    "Sat": "ส.",
+    "None": "ติดต่อผู้สอน",
+    "Lecture": "บรรยาย",
+    "Laboratory": "ปฏิบัติ",
+    "Regular": "ปกติ",
+    "RegularInternational": "ปกติ(I)",
+    "Special": "พิเศษ",
+    "SpecialInternational": "พิเศษ(I)"
+  },
+  "StdStatus": {
+    "Regular": "ปกติ",
+    "RegularInternational": "ปกติ (นานาชาติ)",
+    "Special": "พิเศษ",
+    "SpecialInternational": "พิเศษ (นานาชาติ)",
+    "Undefined": "ไม่ระบุ"
+  },
+  "Mode": {
+    "And": "และ",
+    "Or": "หรือ"
+  },
+  "SubjectsAndSections": {
+    "SetOfDayTitleText": "วันที่เรียน (รวมทุกหมู่เรียน) :",
+    "SeeSections": "หมู่เรียน",
+    "Section": "หมู่",
+    "Credit": "หน่วยกิต",
+    "Coursedate": "วันและเวลาเรียน",
+    "Room": "ห้องเรียน",
+    "Teacher": "ผู้สอน",
+    "Note": "หมายเหตุ : โดยทั่วไปจะต้องลงควบคู่กับ หมู่",
+    "MajorCode": "สำหรับ",
+    "Entry": "จำนวน",
+    "CantEnroll": "ไม่สามารถลงทะเบียนได้",
+    "Selected": "SELECTED"
+  },
+  "Index": {
+    "Title": "เว็บไซต์สำหรับจัดตารางเรียนของนิสิตมหาวิทยาลัยเกษตรศาสตร์"
+  },
+  "Navbar": {
+    "Title": "KU Planner",
+    "FindClass": "ค้นหารายวิชา",
+    "MakeTable": "จัดตารางเรียน",
+    "FavoriteClass": "วิชาที่",
+    "stdPlan": "แผนการเรียน",
+    "Guide": "คู่มือการใช้งาน"
+  },
+  "Login": {
+    "TitleUsername": "บัญชีผู้ใช้เครือข่ายนนทรี",
+    "HintUsername": "b63xxxxxxxx",
+    "TitlePassword": "รหัสผ่าน",
+    "HintPassword": "รหัสผ่านบัญชีผู้ใช้เครือข่ายนนทรี",
+    "ForgotPassword": "ลืมรหัสผ่าน",
+    "ServerError500": "ไอดีหรือรหัสผ่าน ไม่ถูกต้อง",
+    "ServerError404": "เซิฟเวอร์มีปัญหา"
+  },
+  "SubjectsPage": {
+    "Title": "ค้นหาข้อมูลรายวิชา",
+    "InputPlaceholder": "ค้นหาวิชา (รหัส/ชื่อ)",
+    "FilterButtonText": "กรอง",
+    "FilterTitle": "ตัวกรองรายวิชา",
+    "TimeRangeTitle": "เลือกช่วงเวลา",
+    "StudyDateTitle": "วันที่เรียน",
+    "StudyTypeTitle": "หมู่เรียน",
+    "FilterTypeTitle": "รูปแบบการกรอง",
+    "ToText": "ถึง",
+    "FromText": "ตั้งแต่",
+    "NoSubjects": "ไม่มีวิชาที่ค้นหา",
+    "FavoriteSubjectsTitle": "รายวิชาที่สนใจ",
+    "NoFavoriteSubjects": "ไม่มีวิชาที่สนใจ",
+    "SelectFavoriteSubjects": "แสดงเฉพาะวิชาที่สนใจ"
+  },
+  "SelectedPage": {
+    "Title": "จัดตารางเรียน",
+    "SelectedStdStatusTitle": "รูปแบบนิสิต",
+    "NowChoosedSubjectsTitle": "รายวิชาที่เลือก",
+    "NoNowChoosedSubjectsTitle": "ไม่มีรายวิชาที่เลือก",
+    "OldSearchSubjectsTitle": "วิชาที่ค้นหา",
+    "NoOldSearchSubjectsTitle": "ไม่มีวิชาที่ค้นหา",
+    "FavoriteSubjectsTitle": "รายวิชาที่สนใจ",
+    "NoFavoriteSubjectsTitle": "ไม่มีรายวิชาที่สนใจ",
+    "SearchSubjectsTitle": "ค้นหารายวิชา",
+    "NoOrderSubjects": "ยังไม่ได้เลือกวิชาสำหรับจัดตารางเรียน",
+    "ShouldEnrollSubjectsTitle": "วิชาที่ควรลง"
+  },
+  "TablePage": {
+    "Title": "ตารางเรียน",
+    "SaveTable": "บันทึกแบบร่าง",
+    "PicTable": "บันทึกรูปภาพ",
+    "ChangePlan": "เลือกแผนอื่น",
+    "Selected": "SELECTED",
+    "Plan": "แผน",
+    "NotChooseSection": "ไม่เลือกเรียน",
+    "SelectedSection": "หมู่ที่เลือก",
+    "ChangeSection": "เปลี่ยนหมู่",
+    "ChooseSection": "เลือกหมู่เรียน"
+  },
+  "GenEdType": {
+    "Wellness": "กลุ่มสาระอยู่ดีมีสุข",
+    "Entrepreneurship": "กลุ่มสาระศาสตร์แห่งผู้ประกอบการ",
+    "LanguageAndCommunication": "กลุ่มสาระภาษากับการสื่อสาร",
+    "ThaiCitizenAndGlobalCitizen": "กลุ่มสาระพลเมืองไทยและพลเมืองโลก",
+    "Aesthetics": "กลุ่มสาระสุนทรียศาสตร์"
+  },
+  "GenEdPage": {
+    "Title": "รายวิชาศึกษาทั่วไป",
+    "SubjectDetail": "ตรวจสอบรายวิชา",
+    "GenEdFilter": "หมวดหมู่วิชาศึกษาทั่วไป"
+  },
+  "StdPlanPage": {
+    "Title": "แผนการเรียน",
+    "Example": "ตัวอย่างแผนการเรียน",
+    "Model": "Model:",
+    "Plan": "แผน:"
+  }
+}
